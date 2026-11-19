@@ -1,0 +1,42 @@
+# Panel Decap CMS — requiere configurar OAuth de GitHub antes de iniciar sesión.
+# Nunca añadas secretos ni tokens en este archivo.
+backend:
+  name: github
+  repo: JensellSosa/spcec-web
+  branch: main
+  # base_url: https://TU-SERVICIO-OAUTH.example.com
+  # auth_endpoint: auth
+media_folder: assets/uploads
+public_folder: /assets/uploads
+locale: es
+collections:
+  - name: configuracion
+    label: Sitio web SPCEC
+    files:
+      - label: Contenido general y servicios
+        name: sitio
+        file: content/sitio.json
+        format: json
+        fields:
+          - {label: Empresa, name: empresa, widget: string}
+          - {label: Nombre completo, name: nombre_completo, widget: string}
+          - {label: Eslogan, name: eslogan, widget: string}
+          - {label: Subtítulo, name: subtitulo, widget: text}
+          - {label: Descripción de servicios, name: descripcion_servicios, widget: text}
+          - {label: WhatsApp (solo números), name: whatsapp, widget: string}
+          - {label: Ubicación, name: ubicacion, widget: string}
+          - {label: Cobertura, name: cobertura, widget: string}
+          - label: Servicios
+            name: servicios
+            widget: list
+            fields:
+              - {label: Título, name: titulo, widget: string}
+              - {label: Descripción, name: descripcion, widget: text}
+              - {label: Icono, name: icono, widget: image, required: false}
+          - label: Proyectos
+            name: proyectos
+            widget: list
+            fields:
+              - {label: Título, name: titulo, widget: string}
+              - {label: Descripción, name: descripcion, widget: text}
+              - {label: Imagen, name: imagen, widget: image, required: false}

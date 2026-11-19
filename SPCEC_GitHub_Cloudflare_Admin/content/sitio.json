@@ -1,0 +1,74 @@
+{
+  "empresa": "SPCEC SRL",
+  "nombre_completo": "Sosa Portorreal Constructora Electromecánica y Civil",
+  "eslogan": "Soluciones eléctricas integrales para cada proyecto.",
+  "subtitulo": "Especialistas en instalaciones eléctricas, mantenimiento, distribución de energía y soluciones electromecánicas para los sectores residencial, comercial e industrial.",
+  "descripcion_servicios": "Ofrecemos soluciones integrales en instalaciones eléctricas, mantenimiento, desarrollo de proyectos y sistemas de generación de energía para los sectores residencial, comercial e industrial.",
+  "whatsapp": "18098545980",
+  "ubicacion": "Santo Domingo, República Dominicana",
+  "cobertura": "Todo el territorio nacional",
+  "servicios": [
+    {
+      "titulo": "Instalaciones eléctricas",
+      "descripcion": "Diseño, adecuación e instalación de sistemas eléctricos residenciales, comerciales e industriales, incluyendo circuitos de fuerza, distribución de energía y equipos de control.",
+      "icono": "/assets/iconos/01_instalaciones_electricas_con_fondo.png"
+    },
+    {
+      "titulo": "Mantenimiento eléctrico",
+      "descripcion": "Inspección, mantenimiento preventivo y correctivo de instalaciones y equipos eléctricos para contribuir a un funcionamiento seguro y continuo.",
+      "icono": "/assets/iconos/02_mantenimiento_electrico_con_fondo.png"
+    },
+    {
+      "titulo": "Tableros eléctricos",
+      "descripcion": "Montaje, instalación, adecuación y mantenimiento de tableros eléctricos de distribución, protección y control para aplicaciones residenciales, comerciales e industriales.",
+      "icono": "/assets/iconos/03_tableros_electricos_con_fondo.png"
+    },
+    {
+      "titulo": "Iluminación",
+      "descripcion": "Instalación, mantenimiento y modernización de sistemas de iluminación interior, exterior, comercial e industrial, incluyendo soluciones de tecnología LED.",
+      "icono": "/assets/iconos/04_iluminacion_con_fondo.png"
+    },
+    {
+      "titulo": "Sistemas eléctricos industriales",
+      "descripcion": "Instalación, adecuación y mantenimiento de sistemas eléctricos industriales, circuitos de fuerza, distribución de energía y equipos de control eléctrico.",
+      "icono": "/assets/iconos/05_sistemas_industriales_con_fondo.png"
+    },
+    {
+      "titulo": "Diagnóstico eléctrico",
+      "descripcion": "Evaluación técnica de instalaciones eléctricas, identificación de fallas, revisión de condiciones operativas y recomendaciones para mejorar la seguridad y el funcionamiento de los sistemas.",
+      "icono": "/assets/iconos/06_diagnostico_electrico_con_fondo.png"
+    },
+    {
+      "titulo": "Proyectos eléctricos y presupuestos",
+      "descripcion": "Desarrollo y planificación de proyectos eléctricos, elaboración de presupuestos, levantamientos técnicos y definición de soluciones adaptadas a las necesidades de cada cliente.",
+      "icono": "/assets/iconos/07_proyectos_presupuestos_con_fondo.png"
+    },
+    {
+      "titulo": "Sistemas de generación eléctrica",
+      "descripcion": "Instalación y mantenimiento de plantas eléctricas y generadores, incluyendo conexiones, sistemas de respaldo y soluciones para la continuidad del suministro energético.",
+      "icono": "/assets/iconos/08_generacion_electrica_con_fondo.png"
+    },
+    {
+      "titulo": "Energías renovables",
+      "descripcion": "Instalación y mantenimiento de sistemas de generación solar y eólica, integrados a las necesidades energéticas de instalaciones residenciales, comerciales e industriales.",
+      "icono": "/assets/iconos/09_energias_renovables_con_fondo.png"
+    }
+  ],
+  "proyectos": [
+    {
+      "titulo": "Instalaciones eléctricas",
+      "descripcion": "Espacio reservado para incorporar trabajos reales de SPCEC SRL.",
+      "imagen": ""
+    },
+    {
+      "titulo": "Tableros y distribución",
+      "descripcion": "Espacio reservado para incorporar trabajos reales de SPCEC SRL.",
+      "imagen": ""
+    },
+    {
+      "titulo": "Iluminación y mantenimiento",
+      "descripcion": "Espacio reservado para incorporar trabajos reales de SPCEC SRL.",
+      "imagen": ""
+    }
+  ]
+}
