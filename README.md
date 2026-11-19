@@ -24,3 +24,16 @@ El Worker `solitary-bush-04a3` sigue intacto hasta que publiques esta versión. 
 - Los proyectos del sitio son espacios reservados, **no** trabajos realizados confirmados.
 - No se han incluido contraseñas ni credenciales.
 - El catálogo y los iconos vienen de la edición visual realizada en Hostinger y de los recursos aportados en la conversación.
+
+## Versión 2 — revisión móvil
+- Se conservan los nueve iconos PNG originales en `assets/iconos/` y se referencian desde las tarjetas.
+- Se ajustan las tarjetas en móvil y el botón flotante de WhatsApp para reducir superposiciones.
+- El JSON usa rutas relativas de imágenes.
+- Si el sitio publicado muestra iconos de interrogación, verifica que GitHub incluya la carpeta `assets/iconos/` y que Cloudflare haya terminado el último despliegue.
+- El panel `/admin/` **no está autenticado todavía**: requiere configurar un proveedor OAuth de GitHub o una alternativa compatible.
+
+### Actualizar GitHub y Cloudflare
+1. Descomprime el ZIP en tu equipo.
+2. En `JensellSosa/spcec-web` sube el contenido de esta carpeta a la raíz de la rama `main` (no la carpeta contenedora). Confirma los cambios.
+3. En Cloudflare Pages revisa el nuevo despliegue y prueba `https://spcec-web.pages.dev/`.
+4. Comprueba después `https://spcec.com.do/` en móvil.
